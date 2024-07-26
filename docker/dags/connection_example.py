@@ -5,7 +5,7 @@ from airflow.operators.python import PythonOperator
 import pendulum
 
 with DAG(
-    dag_id = 'alterra_connection_example',
+    dag_id = 'altera_connection_fitri',
     schedule=None,
     start_date=datetime(2022, 10, 21),
     catchup=False
